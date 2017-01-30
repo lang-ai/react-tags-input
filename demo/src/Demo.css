@@ -1,0 +1,18 @@
+.Wrapper {
+  max-width: 450px;
+  width: 100%;
+  margin: 2em auto;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 1em;
+  color: #333;
+}
+
+h1:not(:first-child) {
+  margin-top: 2.5em;
+}
+

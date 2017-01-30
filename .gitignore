@@ -1,2 +1,9 @@
 node_modules
 lib
+
+demo/node_modules
+demo/build
+
+.DS_Store
+.env
+npm-debug.log
