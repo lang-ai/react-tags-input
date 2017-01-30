@@ -7,7 +7,9 @@
     "example": "examples"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "start": "babel src --watch -d lib"
   },
   "repository": {
     "type": "git",
@@ -30,5 +32,24 @@
   "bugs": {
     "url": "https://github.com/Sentisis/tags-input/issues"
   },
-  "homepage": "https://github.com/Sentisis/tags-input#readme"
+  "homepage": "https://github.com/Sentisis/tags-input#readme",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "clipboard": "^1.5.16",
+    "lodash": "^4.17.4",
+    "mousetrap": "^1.6.0",
+    "react": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-plugin-transform-object-rest-spread": "^6.22.0",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-react": "^6.22.0",
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0"
+  }
 }
