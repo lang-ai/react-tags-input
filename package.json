@@ -1,0 +1,34 @@
+{
+  "name": "tags-input",
+  "version": "1.0.0",
+  "description": "React input to create tags",
+  "main": "scr/TagsInput.jsx",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sentisis/tags-input.git"
+  },
+  "keywords": [
+    "react",
+    "tags",
+    "input",
+    "input"
+  ],
+  "author": "Alberto Restifo <arestifo@sentisis.com>",
+  "contributors": [
+    {
+      "name": "Fernando Aguero",
+      "email": "faugero@sentisis.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sentisis/tags-input/issues"
+  },
+  "homepage": "https://github.com/Sentisis/tags-input#readme"
+}
