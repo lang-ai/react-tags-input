@@ -1,5 +1,5 @@
 {
-  "name": "tags-input",
+  "name": "react-tags-input",
   "version": "1.0.0",
   "description": "React input to create tags",
   "main": "scr/TagsInput.jsx",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sentisis/tags-input.git"
+    "url": "git+https://github.com/Sentisis/react-tags-input.git"
   },
   "keywords": [
     "react",
