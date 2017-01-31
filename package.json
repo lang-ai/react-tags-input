@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "React input to create tags",
   "main": "scr/TagsInput.jsx",
+  "public": true,
   "directories": {
     "example": "examples"
   },
