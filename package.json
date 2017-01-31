@@ -7,7 +7,7 @@
     "example": "examples"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "babel src -d lib",
     "start": "babel src --watch -d lib"
   },
@@ -42,14 +42,22 @@
   },
   "devDependencies": {
     "babel-cli": "^6.22.2",
+    "babel-jest": "^18.0.0",
     "babel-plugin-lodash": "^3.2.11",
     "babel-plugin-transform-object-rest-spread": "^6.22.0",
+    "babel-polyfill": "^6.22.0",
     "babel-preset-env": "^1.1.8",
+    "babel-preset-latest": "^6.22.0",
     "babel-preset-react": "^6.22.0",
     "eslint": "^3.14.1",
     "eslint-config-airbnb": "^14.0.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^3.0.2",
-    "eslint-plugin-react": "^6.9.0"
+    "eslint-plugin-react": "^6.9.0",
+    "jest": "^18.1.0",
+    "react-test-renderer": "^15.4.2"
+  },
+  "jest": {
+    "collectCoverage": true
   }
 }

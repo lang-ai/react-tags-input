@@ -1,5 +1,6 @@
 node_modules
 lib
+coverage
 
 demo/node_modules
 demo/build

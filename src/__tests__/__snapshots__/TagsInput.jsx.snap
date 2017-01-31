@@ -1,0 +1,113 @@
+exports[`TagsInput snapshots renders a plain input 1`] = `
+<div
+  className="TagsInput">
+  <div
+    className="TagsInput__field">
+    <div
+      className="TagsInput__input"
+      onClick={[Function]}>
+      <input
+        className="TagsInput__text mousetrap"
+        id="TagsInput_3"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        style={
+          Object {
+            "width": "1ch",
+          }
+        }
+        type="text"
+        value="" />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TagsInput snapshots renders a plain input 2`] = `
+<div
+  className="TagsInput">
+  <div
+    className="TagsInput__field">
+    <div
+      className="TagsInput__input"
+      onClick={[Function]}>
+      <div
+        className="TagsInput__tag">
+        <span
+          className="SimpleTag">
+          foo
+          <button
+            className="SimpleTag__btn"
+            onClick={[Function]}>
+            ×
+          </button>
+        </span>
+      </div>
+      <input
+        className="TagsInput__text mousetrap"
+        id="TagsInput_5"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        style={
+          Object {
+            "width": "1ch",
+          }
+        }
+        type="text"
+        value="" />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TagsInput snapshots renders with a complete component 1`] = `
+<div
+  className="TagsInput">
+  <div
+    className="TagsInput__header">
+    <label
+      className="TagsInput__label"
+      htmlFor="TagsInput_6">
+      foo
+    </label>
+    <button
+      className="TagsInput__special-btn"
+      onClick={[Function]}>
+      Special
+    </button>
+  </div>
+  <div
+    className="TagsInput__field">
+    <div
+      className="TagsInput__input"
+      onClick={[Function]}>
+      <span
+        className="TagsInput__placeholder">
+        foo
+      </span>
+      <input
+        className="TagsInput__text mousetrap"
+        id="TagsInput_6"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        style={
+          Object {
+            "width": "1ch",
+          }
+        }
+        type="text"
+        value="" />
+    </div>
+  </div>
+  <div
+    className="TagsInput__footer">
+    <button
+      className="TagsInput__copy-btn">
+      Copy to clipboard
+    </button>
+  </div>
+</div>
+`;
