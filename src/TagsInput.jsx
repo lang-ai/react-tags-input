@@ -31,30 +31,30 @@ export const tagShape = PropTypes.shape({
 });
 
 const propTypes = {
-  // Array of tags to display
-  tags: PropTypes.arrayOf(tagShape),
+  // Characters not allowed in the tags, defaults to `[',']` and must always
+  // contain `,`
+  blacklistChars: PropTypes.arrayOf(PropTypes.string),
 
-  // Rebdered above the field istself
+  // Renders a copy to clipboard button
+  copyButton: PropTypes.bool,
+
+  // Label for the copy to clipboard button
+  copyButtonLabel: PropTypes.string,
+
+  // Error message rendered below the field. When the field is set it will
+  // also has the class `is-error`
+  error: PropTypes.string,
+
+  // Rendered above the field itself
   label: PropTypes.string,
 
   placeholder: PropTypes.string,
 
-  // Error message rendered below the field. When set the field also has the
-  // class `is-error`
-  error: PropTypes.string,
+  // Array of tags to display
+  tags: PropTypes.arrayOf(tagShape),
 
   // Returns a custom way to render the tag
   tagRenderer: PropTypes.func,
-
-  // Render a copy to clibaord button
-  copyButton: PropTypes.bool,
-
-  // Label for the copy button
-  copyButtonLabel: PropTypes.string,
-
-  // Characters not allowed in the tags, defaults to `[',']` and must always
-  // contain `,`
-  blacklistChars: PropTypes.arrayOf(PropTypes.string),
 
   // Enable the creation of special tags
   specialTags: PropTypes.bool,
@@ -66,10 +66,10 @@ const propTypes = {
   // Only used when a `specialButtonRenderer` is not defined.
   specialButtonLabel: PropTypes.string,
 
-  // Fired when changing the tags with as argument the `tags` array
+  // Fired when changing the tags with the `tags` array as the argument
   onChange: PropTypes.func.isRequired,
 
-  // Same as a standard DOM input
+  // Same as the standard React SyntheticEvent
   onBlur: PropTypes.func,
   onFocus: PropTypes.func,
 
@@ -82,12 +82,13 @@ const tagRenderer = ({ value, special }, onClick) => (
 );
 
 const defaultProps = {
-  tagRenderer,
   blacklistChars: [','],
+  copyButton: false,
   copyButtonLabel: 'Copy to clipboard',
   specialButtonLabel: 'Special',
   specialTags: false,
   tags: [],
+  tagRenderer,
   onBlur: () => {},
   onChange: () => {},
   onFocus: () => {},
