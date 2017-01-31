@@ -111,7 +111,6 @@ export const hasBlacklistedChars = curry((blacklist, str) => flow(
 export const parseValuesWith = curry((blacklist, str) => flow(
   split(','),
   map((value) => {
-    if (typeof value !== 'string') return false;
     if (hasBlacklistedChars(blacklist, value)) return false;
     return { value };
   }),

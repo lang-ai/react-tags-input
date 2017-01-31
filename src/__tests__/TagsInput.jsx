@@ -104,6 +104,17 @@ describe('TagsInput', () => {
       )).toJSON();
       expect(tree).toMatchSnapshot();
     });
+
+    test('renders with a custom tag', () => {
+      const tagRenderer = () => <span className="customTag" />;
+      let tree = renderer.create((
+        <TagsInput
+          tagRenderer={tagRenderer}
+          tags={[{ value: 'foo' }]}
+        />
+      )).toJSON();
+      expect(tree).toMatchSnapshot();
+    });
   });
   // }}}
 });

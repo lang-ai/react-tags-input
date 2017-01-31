@@ -111,3 +111,34 @@ exports[`TagsInput snapshots renders with a complete component 1`] = `
   </div>
 </div>
 `;
+
+exports[`TagsInput snapshots renders with a custom tag 1`] = `
+<div
+  className="TagsInput">
+  <div
+    className="TagsInput__field">
+    <div
+      className="TagsInput__input"
+      onClick={[Function]}>
+      <div
+        className="TagsInput__tag">
+        <span
+          className="customTag" />
+      </div>
+      <input
+        className="TagsInput__text mousetrap"
+        id="TagsInput_8"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        style={
+          Object {
+            "width": "1ch",
+          }
+        }
+        type="text"
+        value="" />
+    </div>
+  </div>
+</div>
+`;
