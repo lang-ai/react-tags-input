@@ -53,6 +53,7 @@ export default class Demo extends React.Component {
 Currently the component listen to the following keys: <kbd>enter</kbd>, <kbd>esc</kbd>, <kbd>backspace</kbd>, <kbd>mod</kbd>+<kbd>a</kbd>, <kbd>mod</kbd>+<kbd>c</kbd> and <kbd>mod</kbd>+<kbd>v</kbd> (for copy/paste).
 
 It supports a keyboard-only copy paste (using <kbd>mod</kbd>+<kbd>a</kbd>).
+
 ![copy-paste-demo](https://raw.githubusercontent.com/sentisis/react-tags-input/master/copy-paste-demo.gif)
 
 Each tag you will be passing should have the following shape:
