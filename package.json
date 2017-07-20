@@ -1,6 +1,6 @@
 {
   "name": "@sentisis/react-tags-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React input to create tags",
   "main": "scr/TagsInput.jsx",
   "public": true,
