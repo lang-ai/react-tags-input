@@ -1,11 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`TagsInput snapshots renders a plain input 1`] = `
 <div
-  className="TagsInput">
+  className="TagsInput"
+>
   <div
-    className="TagsInput__field">
+    className="TagsInput__field"
+  >
     <div
       className="TagsInput__input"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       <input
         className="TagsInput__text mousetrap"
         id="TagsInput_3"
@@ -18,7 +23,8 @@ exports[`TagsInput snapshots renders a plain input 1`] = `
           }
         }
         type="text"
-        value="" />
+        value=""
+      />
     </div>
   </div>
 </div>
@@ -26,20 +32,26 @@ exports[`TagsInput snapshots renders a plain input 1`] = `
 
 exports[`TagsInput snapshots renders a plain input 2`] = `
 <div
-  className="TagsInput">
+  className="TagsInput"
+>
   <div
-    className="TagsInput__field">
+    className="TagsInput__field"
+  >
     <div
       className="TagsInput__input"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       <div
-        className="TagsInput__tag">
+        className="TagsInput__tag"
+      >
         <span
-          className="SimpleTag">
+          className="SimpleTag"
+        >
           foo
           <button
             className="SimpleTag__btn"
-            onClick={[Function]}>
+            onClick={[Function]}
+          >
             ×
           </button>
         </span>
@@ -56,7 +68,8 @@ exports[`TagsInput snapshots renders a plain input 2`] = `
           }
         }
         type="text"
-        value="" />
+        value=""
+      />
     </div>
   </div>
 </div>
@@ -64,27 +77,34 @@ exports[`TagsInput snapshots renders a plain input 2`] = `
 
 exports[`TagsInput snapshots renders with a complete component 1`] = `
 <div
-  className="TagsInput">
+  className="TagsInput"
+>
   <div
-    className="TagsInput__header">
+    className="TagsInput__header"
+  >
     <label
       className="TagsInput__label"
-      htmlFor="TagsInput_6">
+      htmlFor="TagsInput_6"
+    >
       foo
     </label>
     <button
       className="TagsInput__special-btn"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       Special
     </button>
   </div>
   <div
-    className="TagsInput__field">
+    className="TagsInput__field"
+  >
     <div
       className="TagsInput__input"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       <span
-        className="TagsInput__placeholder">
+        className="TagsInput__placeholder"
+      >
         foo
       </span>
       <input
@@ -99,13 +119,16 @@ exports[`TagsInput snapshots renders with a complete component 1`] = `
           }
         }
         type="text"
-        value="" />
+        value=""
+      />
     </div>
   </div>
   <div
-    className="TagsInput__footer">
+    className="TagsInput__footer"
+  >
     <button
-      className="TagsInput__copy-btn">
+      className="TagsInput__copy-btn"
+    >
       Copy to clipboard
     </button>
   </div>
@@ -114,16 +137,21 @@ exports[`TagsInput snapshots renders with a complete component 1`] = `
 
 exports[`TagsInput snapshots renders with a custom tag 1`] = `
 <div
-  className="TagsInput">
+  className="TagsInput"
+>
   <div
-    className="TagsInput__field">
+    className="TagsInput__field"
+  >
     <div
       className="TagsInput__input"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       <div
-        className="TagsInput__tag">
+        className="TagsInput__tag"
+      >
         <span
-          className="customTag" />
+          className="customTag"
+        />
       </div>
       <input
         className="TagsInput__text mousetrap"
@@ -137,7 +165,8 @@ exports[`TagsInput snapshots renders with a custom tag 1`] = `
           }
         }
         type="text"
-        value="" />
+        value=""
+      />
     </div>
   </div>
 </div>
