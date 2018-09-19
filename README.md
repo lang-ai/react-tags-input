@@ -7,7 +7,7 @@ An input control that handles tags interaction with copy-paste and custom type s
 
 ## Live Playground
 
-For examples of the tags input in action, check the [demo page](https://sentisis.github.io/react-tags-input/)
+For examples of the tags input in action, check the [demo page](https://lang-ai.github.io/react-tags-input/)
 
 
 ## Installation
