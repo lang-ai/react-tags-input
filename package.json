@@ -1,6 +1,6 @@
 {
   "name": "@sentisis/react-tags-input",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React input to create tags",
   "main": "scr/TagsInput.jsx",
   "public": true,
@@ -36,28 +36,28 @@
   "homepage": "https://github.com/Sentisis/tags-input#readme",
   "dependencies": {
     "classnames": "^2.2.5",
-    "clipboard": "^1.5.16",
+    "clipboard": "^2.0.4",
     "lodash": "^4.17.11",
     "mousetrap": "^1.6.0",
     "prop-types": "^15.5.10",
-    "react": "^15.4.2"
+    "react": "^16.6.3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-jest": "^20.0.3",
+    "babel-jest": "^23.6.0",
     "babel-plugin-lodash": "^3.2.11",
     "babel-plugin-transform-object-rest-spread": "^6.22.0",
     "babel-polyfill": "^6.22.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-latest": "^6.22.0",
     "babel-preset-react": "^6.22.0",
-    "eslint": "^4.2.0",
-    "eslint-config-airbnb": "^15.0.2",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.1.0",
-    "jest": "^20.0.4",
-    "react-test-renderer": "^15.4.2"
+    "jest": "^23.6.0",
+    "react-test-renderer": "^16.6.3"
   },
   "jest": {
     "collectCoverage": true
