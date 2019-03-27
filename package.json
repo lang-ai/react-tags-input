@@ -1,6 +1,6 @@
 {
   "name": "@sentisis/react-tags-input",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React input to create tags",
   "main": "scr/TagsInput.jsx",
   "public": true,
@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-jest": "^23.6.0",
+    "babel-jest": "^24.5.0",
     "babel-plugin-lodash": "^3.2.11",
     "babel-plugin-transform-object-rest-spread": "^6.22.0",
     "babel-polyfill": "^6.22.0",
@@ -56,7 +56,7 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.1.0",
-    "jest": "^23.6.0",
+    "jest": "^24.5.0",
     "react-test-renderer": "^16.6.3"
   },
   "jest": {
