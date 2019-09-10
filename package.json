@@ -1,6 +1,6 @@
 {
   "name": "@sentisis/react-tags-input",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "React input to create tags",
   "main": "src/TagsInput.jsx",
   "public": true,
@@ -26,7 +26,7 @@
   "contributors": [
     {
       "name": "Fernando Aguero",
-      "email": "faugero@sentisis.com"
+      "email": "faguero@sentisis.com"
     }
   ],
   "license": "MIT",
@@ -43,21 +43,23 @@
     "react": "^16.6.3"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
     "babel-jest": "^24.5.0",
+    "babel-loader": "^8.0.6",
     "babel-plugin-lodash": "^3.2.11",
     "babel-plugin-transform-object-rest-spread": "^6.22.0",
-    "babel-polyfill": "^6.22.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-latest": "^6.22.0",
-    "babel-preset-react": "^6.22.0",
-    "eslint": "^5.9.0",
-    "eslint-config-airbnb": "^17.1.0",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.1.0",
     "jest": "^24.5.0",
-    "react-test-renderer": "^16.6.3"
+    "react-test-renderer": "^16.6.3",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
   },
   "jest": {
     "collectCoverage": true

@@ -1,4 +1,8 @@
 {
-  "plugins": ["lodash", "transform-object-rest-spread"],
-  "presets": ["env", "react"]
+  "plugins": [
+    "lodash",
+    "transform-object-rest-spread",
+    "@babel/plugin-proposal-object-rest-spread"
+  ],
+  "presets": ["@babel/env", "@babel/preset-react"]
 }
