@@ -1,4 +1,4 @@
-# This repos is not being actively maintained
+# This repository is not being actively maintained
 
 
 React-Tags-Input
